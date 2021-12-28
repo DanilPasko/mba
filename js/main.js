@@ -38,7 +38,7 @@ $( window ).on( 'load', ( ) => {
 			submitHandler: function(form){
 				$(form).ajaxSubmit({
 					type: 'POST',
-					url: 'mail.php',
+					url: '',
 					success: function() {
 						$(form).trigger('reset'); // clean form
 						$.fancybox.close( true ); // close modal if form in it
